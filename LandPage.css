@@ -13,14 +13,14 @@ nav > div img {
     height: 60px;
 }
 
-nav > div:last-child {
+nav > div:nth-child(2) {
     padding-top: 7px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-nav > div:last-child a {
+nav > div:nth-child(2) a {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -28,6 +28,14 @@ nav > div:last-child a {
     border-top: none;
     color: black;
     text-decoration: none;
+}
+
+nav > div:last-child a {
+    text-decoration: none;
+}
+
+nav > div:last-child img {
+    height: 30px;
 }
 
 /* ------------- Carrossel de imagens ------------- */
