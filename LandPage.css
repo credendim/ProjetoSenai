@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body {
     padding: 0;
     margin: 0;
@@ -28,6 +30,7 @@ nav > div:nth-child(2) a {
     border-top: none;
     color: black;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;;
 }
 
 nav > div:last-child{
