@@ -14,10 +14,20 @@ nav > div img {
 }
 
 nav > div:last-child {
-    
+    padding-top: 7px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+nav > div:last-child a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #ED1C24;
+    border-top: none;
+    color: black;
+    text-decoration: none;
 }
 
 /* ------------- Carrossel de imagens ------------- */
