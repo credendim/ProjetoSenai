@@ -30,12 +30,20 @@ nav > div:nth-child(2) a {
     text-decoration: none;
 }
 
+nav > div:last-child{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+    gap: 10px;
+}
+
 nav > div:last-child a {
     text-decoration: none;
 }
 
 nav > div:last-child img {
-    height: 30px;
+    height: 25px;
 }
 
 /* ------------- Carrossel de imagens ------------- */
