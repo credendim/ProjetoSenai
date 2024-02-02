@@ -3,6 +3,7 @@
 body {
     padding: 0;
     margin: 0;
+    height: 100%;
 }
 
 nav > div:first-child {
@@ -168,7 +169,8 @@ nav > div:last-child img {
   /* ------------- Eventos -------------- */
 
 #events-txt{
-    font-size: 1.4em;
+    /* margin-top: -100px; */
+    font-size: 1.5em;
     color: red;
     margin-top: 31em;
     padding-left: 1%;
