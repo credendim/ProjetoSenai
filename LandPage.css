@@ -99,3 +99,68 @@ nav > div:last-child img {
     right: 10px;
 }
 /* ------------- Carrossel de imagens ------------- */
+
+/* ------------- Notícias ------------- */
+.linha-container {
+    display: flex;
+    align-items: center;
+    top: 20%;
+  }
+  
+  .texto {
+    margin-right: 10px;
+    font-size: large;
+    color: red;
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  
+  .linha-horizontal {
+    border-top: 5px solid red;
+    width: 100%; 
+    z-index: 0;
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  
+  .imagens{
+    display: flex;
+    position: relative;
+    /* align-items: center; */
+    /* bottom: auto; */
+  }
+
+  .imagem1 {
+    position: absolute;
+    top: 90%;
+    right: 42%;
+    height: 550px;
+  }
+
+  .imagem2{
+    position: absolute;
+    height: 254px;
+    width:35.11%; ;
+    top: 130vh;
+    right: 3%;
+  }
+
+  .imagem3{
+ 
+    position: absolute;
+    height: 250px;
+    width: 35.11%;
+    top: 90%;
+    right: 3%;
+  }
+
+  .texto-sobre-imagem {
+    position: absolute;
+    top: 155vh;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    z-index: 1;
+  }
+  /* ------------- Notícias ------------- */
