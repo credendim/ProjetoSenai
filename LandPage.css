@@ -117,7 +117,7 @@ nav > div:last-child img {
   }
   
   .linha-horizontal {
-    border-top: 5px solid red;
+    border-top: 2px solid red;
     width: 100%; 
     z-index: 0;
     margin-top: 5%;
