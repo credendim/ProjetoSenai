@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
+  width: 100%;
 }
 
 nav > div:first-child {
@@ -62,9 +63,9 @@ nav > div:last-child img {
 }
 
 @media screen and (max-width: 1250px) {
-    .slider {
-        display: none;
-    }
+  .slider {
+    display: none;
+  }
 }
 
 .slide {
@@ -107,6 +108,10 @@ nav > div:last-child img {
 /* ------------- Carrossel de imagens ------------- */
 
 /* ------------- Notícias ------------- */
+.noticias {
+  margin-top: 50px;
+}
+
 .imagem-abaixo {
   margin-top: 20px;
   display: flex;
@@ -138,37 +143,70 @@ nav > div:last-child img {
 }
 
 @media screen and (max-width: 1155px) {
+  .imagem-abaixo > div:first-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 
-    .imagem-abaixo > div:first-child span {
-        display: none;
-      }
+  .imagem-abaixo > div:first-child img {
+    height: auto;
+    width: 70%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.485);
+  }
 
-    .imagem-abaixo {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-      }
+  .imagem-abaixo > div:first-child span {
+    display: none;
+  }
 
-      .imagem-abaixo > div:last-child {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 50px;
-      }
+  .imagem-abaixo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
 
-      .imagem-abaixo > div:last-child img {
-        height: auto;
-        width: 55%;
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.485);
-      }
-      
+  .imagem-abaixo > div:last-child {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .imagem-abaixo > div:last-child img {
+    height: auto;
+    width: 70%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.485);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .imagem-abaixo > div:first-child img {
+    width: 70%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.485);
+  }
+
+  .imagem-abaixo > div:last-child {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .imagem-abaixo > div:last-child img {
+    height: auto;
+    width: 70%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.485);
+  }
 }
 /* ------------- Notícias ------------- */
 
 /* ------------- Eventos -------------- */
+#enventos {
+  margin-top: 50px;
+}
 
 #events-txt {
   margin-top: 20px;
@@ -182,33 +220,46 @@ nav > div:last-child img {
   border: 1px solid red;
   width: 90%;
   margin-top: -0.7em;
-  margin-left: 7.4em;
+  margin-left: 10%;
 }
 
 .events-container {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-
-
 @media screen and (max-width: 1050px) {
-    .events-container {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .events-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #line {
+    border: 1px solid red;
+    width: 85%;
+    margin-top: -0.7em;
+    margin-left: 15%;
+  }
 }
 
 @media screen and (max-width: 750px) {
-    .events-container {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
+  .events-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  #line {
+    border: 1px solid red;
+    width: 70%;
+    margin-top: -0.7em;
+    margin-left: 30%;
+  }
 
+
+}
 
 .events-square {
   display: flex;
@@ -255,10 +306,11 @@ nav > div:last-child img {
   font-family: "Montserrat", sans-serif;
 }
 
-
 /* ------------- Unidades -------------- */
 
-
+#unidades {
+  margin-top: 50px;
+}
 
 #unidades-txt {
   margin-top: 20px;
@@ -266,40 +318,40 @@ nav > div:last-child img {
   color: red;
   padding-left: 1%;
   font-family: "Montserrat", sans-serif;
+  width: 30%;
 }
 
 #line2 {
   border: 1px solid red;
   width: 70%;
   margin-top: -0.7em;
-  margin-left: 21.4em;
+  margin-left: 30%;
 }
 
 .unidades-container {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-
-
 @media screen and (max-width: 1050px) {
-    .unidades-container {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .unidades-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 750px) {
-    .unidades-container {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .unidades-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .unidades-square {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -307,12 +359,8 @@ nav > div:last-child img {
   height: 240px;
   background-color: whitesmoke;
   border-radius: 10px;
-  margin-top: 7em;
-  float: left; /* Alterado para alinhar à direita */
-margin-left: 60%;
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.485);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.485);
 }
-
 
 .unidades-square img {
   width: 110%;
@@ -346,7 +394,7 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.485);
   font-family: "Montserrat", sans-serif;
 }
 
-.endereço{
+.endereço {
   position: absolute;
   margin-top: 10.5em;
   text-align: center;
@@ -355,13 +403,11 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.485);
   align-items: center;
   width: 140px;
   height: 35px;
-  
+
   color: rgb(0, 0, 0);
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
 }
-
-
 
 footer {
   background-color: #960101;
@@ -373,7 +419,6 @@ footer {
   font-family: "Montserrat", sans-serif;
 }
 
-.footertexto{
-  color: #C5BCBC; 
+.footertexto {
+  color: #c5bcbc;
 }
-
