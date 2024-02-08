@@ -369,6 +369,11 @@ footer {
   padding: 20px;
   text-align: center;
   margin-top: 40px;
-  height: 40px;
+  height: 12em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footertexto{
+  color: #C5BCBC;
 }
 
