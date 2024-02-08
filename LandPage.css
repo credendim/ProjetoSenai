@@ -306,6 +306,11 @@ nav > div:last-child img {
   font-family: "Montserrat", sans-serif;
 }
 
+.btn-vermais:hover {
+  background-color: transparent;
+  color: #960101;
+}
+
 /* ------------- Unidades -------------- */
 
 #unidades {
@@ -392,6 +397,11 @@ nav > div:last-child img {
   background-color: #960101;
   color: white;
   font-family: "Montserrat", sans-serif;
+}
+
+.btn-vermaiss:hover {
+  background-color: transparent;
+  color: #960101;
 }
 
 .endereço {
