@@ -236,7 +236,6 @@ nav > div:last-child img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-<<<<<<< Updated upstream
   #line {
     border: 1px solid red;
     width: 85%;
@@ -244,10 +243,6 @@ nav > div:last-child img {
     margin-left: 15%;
   }
 }
-=======
-  .imagem2{
-    position: absolute;
->>>>>>> Stashed changes
 
 @media screen and (max-width: 750px) {
   .events-container {
